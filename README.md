@@ -7,7 +7,7 @@ PRX (Odborná prax), II.C, SPŠ IT Ignáca Gessaya v Tvrdošíne.
 - `03_tema/moja-stranka.html` — osobný web (o mne, záujmy, kontakt)
 
 ## Živá stránka
-https://github.com/maros-bielak/SS_PRX_IIC/blob/main/03_tema/moja-stranka.html
+https://github.com/maros-bielak/SS_PRX_IIC/03_tema/moja-stranka.html
 
 ## Čo som sa naučil
 - základnú schému HTML dokumentu (DOCTYPE, html, head, body)
