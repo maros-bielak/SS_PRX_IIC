@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planéty</title>
+    <style>
+        #Galeria{
+            display: flex;
+            gap: 20px; 
+            padding: 10px; 
+            flex-wrap:wrap;
+            padding: 6px;
+            
+        }
+        .karta{
+            background-color: royalblue;
+            color: ghostwhite; 
+            padding: 6px; 
+            border: 2px solid purple; 
+            margin: 6px;
+            width: 500px;
+            justify-content: center;
+            align-items: center;
+            object-position: center;
+                   
+        }
+        .fakty{
+            background-color: navajowhite;
+            color: black; 
+            padding: 5px; 
+            border: 2px solid orange; 
+            margin: 6px;
+        }
+
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="../index.html">Domov |</a>
+        <a href="#Galeria">Galéria |</a>
+        <a href="#fakty">Fakty</a>
+    </nav>
+
+    <h1>Zaujímavé zvieratá</h1>
+    <p>Malá galéria planiet, na ktorej si zopakujeme všetko z HTML aj CSS.</p>
+
+    <div id="Galeria">
+        
+        <div class="karta">
+            <img src="obrazky/Venus_globe.jpg" alt="obrazok Venuše" width="200px">
+            <h2>Venuša</h2>
+            <p>
+	            Najhorúcejšia planéta (až 465 °C) kvôli hustej atmosfére a skleníkovému efektu;<br>
+                navyše sa otáča opačným smerom než väčšina ostatných planét.
+            </p>
+        </div>
+        
+        <div class="karta">
+            <img src="obrazky/zem.jfif" alt="obrazok Zeme" width="200px">
+            <h2>Zem</h2>
+            <p>
+	            Jediná známa planéta so životom a tekutou vodou na povrchu,<br>
+                ktorá pokrýva približne 71 % jej plochy.
+            </p>
+        </div>
+        
+        <div class="karta">
+            <img src="obrazky/mars.jfif" alt="obrazok Marsu" width="200px">
+            <h2>Mars</h2>
+            <p>
+	            Červená planéta má najvyššiu sopku v Slnečnej sústave (Olympus Mons),<br>
+                ktorá je takmer trikrát vyššia než Mount Everest.
+            </p>
+        </div>
+        
+        <div class="karta">
+            <img src="obrazky/jupiter.jfif" alt="obrazok Jupitera" width="200px">
+            <h2>Jupiter</h2>
+            <p>
+                Najväčšia planéta, do ktorej by sa zmestilo viac ako 1 300 Zemí;<br> 
+                jej Veľká červená škvrna je obrovská búrka zúriaca už stáročia.
+            </p>
+        </div>
+        
+        <div class="karta">
+            <img src="obrazky/saturn.png" alt="obrazok Saturna" width="200px">
+            <h2>Saturn</h2>
+            <p>
+                Preslávený svojím rozsiahlym systémom prstencov z ľadu a prachu;<br>
+                je taký ľahký, že by dokázal plávať na vode.
+            </p>
+        </div>
+
+        <div class="karta">
+            <img src="obrazky/neptun.jfif" alt="obrazok Neptúnu" width="200px">
+            <h2>Neptún</h2>
+            <p>
+                Najvzdialenejšia planéta, na ktorej fúkajú najrýchlejšie vetry<br>
+                v Slnečnej sústave, dosahujúce rýchlosť až 2 100 km/h.
+            </p>
+        </div>
+    
+    </div>
+    <div class="fakty">
+    <h2 id="fakty">Rýchle fakty</h2>
+    <ul>
+        <li>V našej slnečnej sústave je 8 planét:</li>
+        <li>Prvé štyri planéty sú kamenné</li>
+        <li>Ďalšie štyri sú plynné obri</li>
+    </ul>
+    </div>
+</body>
+</html>
